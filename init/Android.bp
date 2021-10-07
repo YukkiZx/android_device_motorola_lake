@@ -19,9 +19,9 @@ cc_library_static {
     recovery_available: true,
     srcs: ["init_lake.cpp"],
     include_dirs: [
-        "system/core/base/include",
+        "system/libbase/include",
         "system/core/init",
-        "device/motorola/sdm660-common"
+        "device/motorola/sdm660-common",
     ],
     shared_libs: [
         "libbase",
